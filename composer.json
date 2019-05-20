@@ -1,0 +1,23 @@
+{
+  "name": "andywendt/dice-golf",
+  "description": "Dice Golf",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Andy Wendt",
+      "email": "andy@awendt.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dice\\": "src",
+      "Tests\\": "tests"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^8.1",
+    "mockery/mockery": "^1.2",
+    "fzaninotto/faker": "^1.8"
+  }
+}
