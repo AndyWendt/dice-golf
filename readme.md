@@ -1,5 +1,9 @@
 # Golf Dice Game
 
+[![Build Status](https://travis-ci.org/AndyWendt/dice-golf.svg?branch=master)](https://travis-ci.org/AndyWendt/dice-golf) 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/AndyWendt/dice-golf/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/AndyWendt/dice-golf/?branch=master) 
+[![codecov](https://codecov.io/gh/AndyWendt/dice-golf/branch/master/graph/badge.svg)](https://codecov.io/gh/AndyWendt/dice-golf)
+
 * [Problem Specification](./docs/dice-game-spec.pdf)
 
 ## Installation
