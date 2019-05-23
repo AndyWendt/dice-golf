@@ -44,8 +44,6 @@ Game and Round both use a simple factory to create a few objects so that they ca
 
 * Are the business terms game & round?
     * I assumed so but would have checked before implementing
-* made the assumption that it was ok to change `playGame()` to `play()`
-    * I would always check with others before doing so
 * Are the dice six sided and are they numbered from 1 through 6? 
     * I assumed so but would have checked before implementing
 * Will the number of players ever need to be changed? 
@@ -53,8 +51,10 @@ Game and Round both use a simple factory to create a few objects so that they ca
 * Is there a max number of players? 
     * I assume so but didn't put checks in
 * Is `playGame()` supposed to play the game AND create the view?
-    * I decided to just use a plane old function in a script to handle this part
-* I assumed "displays the winning player" means that we display their name by echoing out the result
+    * Put it in an interview class that generates the desired output and runs a single game
+    * I would have checked with others on the exact requirements before doing so
+* I assumed "displays the winning player" means that we display their name and result by echoing out a string
     * could be something else which is why I'd check with others
 * Assumed that the round count is always the player count since each must roll once
+    * Would be easy to change
     
